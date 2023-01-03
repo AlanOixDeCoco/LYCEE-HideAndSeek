@@ -1,0 +1,88 @@
+﻿@font-face {
+font-family: "moonREG";
+	src: url('polices/moonREG.otf');
+}
+@font-face {
+font-family: "moonLI";
+	src: url('polices/moonLI.otf');
+}
+@font-face {
+font-family: "moonBOL";
+	src: url('polices/moonBOL.otf');
+}
+
+body {
+background-image: url("images/bgFont.png");  /* https://alertageekchile.cl/wp-content/uploads/2018/11/UZKEjzG.png  --  modifiée*/
+background-attachment: fixed;
+background-size: cover;
+}
+
+p{
+font-family:moonREG;
+color:black;
+font-size:20px;
+margin-left: 50px;
+margin-right: 50px;
+}
+
+#banniere{
+margin-top: 24px;
+margin-bottom: 12px;
+}
+
+.bande {
+background-color: #00AAFF66;
+margin-left:4%;
+margin-right:4%;
+padding-bottom: 0.5%;
+}
+
+h2 {
+margin-left: 50px; 
+font-size:40px;
+font-family:moonBOL;
+color:black;
+}
+
+.lien{
+font-family:moonREG;
+color:black;
+font-size:35px;
+text-decoration: none;
+
+}
+
+#barremenu {
+margin-left: 50px;
+margin-right: 50px;
+}
+
+#index{
+	margin-top: -10px;
+	margin-bottom: 5px;
+	margin-right: 80%;
+}
+
+#jeu{
+	margin-top: -52px;
+	margin-bottom: 5px;
+	margin-left: 33%;
+}
+
+#infos{
+margin-top: -52px;
+margin-bottom: 5px;
+margin-left: 66%;
+}
+
+#game{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+hr{
+margin-top: 15px;
+margin-bottom: 15px;
+border: 2px solid black;
+}

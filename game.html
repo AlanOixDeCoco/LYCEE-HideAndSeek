@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Jouer</title>
+    <link href="assets/website/style.css" rel="stylesheet" type="text/css"/>
+   	<link rel="icon" href="assets/website/images/logo.png">
+   	<script src="assets/game/scripts/phaser.js"></script>
+	<script src="assets/game/scripts/scripts-HideAndSeek.js"></script>
+</head>
+<body>
+
+<div class="bande">
+	<center><a href="index.html"><img src="assets/website/images/banniere.png" id="banniere"></a></center>
+
+	<div id="barremenu">
+			<hr>
+			<div id="index"><a href="index.html" class="lien">	▷ Accueil </a></div>
+			<div id="jeu"><a href="game.html" class="lien">	▷ Jouer </a></div>
+			<div id="infos"><a href="infos.html" class="lien">	▷ A propos </a></div>
+			<hr>
+	</div>
+	<div id="game"></div>
+	
+	<center><h2><u>Les règles du jeu:</u></h2></center>
+
+	<p>Vous disposez d'une durée de 15 à 45 secondes pour vous caché, le Seeker ne joue alors pas et est présent au niveau du carré rouge en haut à gauche de la carte. Vous pouvez alors vous changer en objet à
+	l'aide de la touche dédiée à votre numéro de joueur, autant de fois que vous le voulez.</p>
+	<p>Ce délai écoulé, le Seeker a lui entre 1min 30 et 3min30 pour vous trouver. Attention ! Vous pouvez encore vous transformer, mais vous êtes plus lents que le Seeker, il faut donc faire attention à ne pas être vu !</p>
+	<p>Pour vous faire perdre des points de vie, le Seeker n'a qu'à vous passer dessus, dès qu'une collision est enregistrée, vous voyez votre vie dessendre dur l'interface en bas de l'écran.</p>
+	<p>Une fois tous les joueurs éliminés, la partie est terminée et le Seeker l'emporte. Si au bout du temps imparti tous les Hidden ne sont pas éliminés, ils l'emportent !</p>
+
+	<br>
+
+	<center><h2><u>Les commandes:</u></h2></center>
+
+	<center><img src="assets/website/images/controles.png"/></center>
+	<center><p>L'image ci-dessus présente les commandes des différents joueurs.</p></center>
+
+</div>
+
+</body>
+
+</html>
